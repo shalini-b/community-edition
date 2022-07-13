@@ -64,7 +64,6 @@ spec:
         layer7Only: false
         servicesAPI: false
         l4Config:
-            advancedL4: false
             autoFQDN: "disabled"
         ingress:
             disableIngressClass: true

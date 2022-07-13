@@ -51,7 +51,6 @@ spec:
             labelValue: #@ values.akoOperator.config.avi_namespace_selector_label_value
 #@ end
         l4Config:
-            advancedL4: #@ values.akoOperator.config.avi_advanced_l4
 #@ if values.akoOperator.config.avi_auto_fqdn:
             #@overlay/match missing_ok=True
             autoFQDN: #@ values.akoOperator.config.avi_auto_fqdn
